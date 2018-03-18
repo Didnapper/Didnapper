@@ -114,7 +114,7 @@ class Scene_Battle
     if @action_battlers.size == 0
           #Heal SP/MP if certain states aren't inflicted - kreelos
       $game_party.actors.each {|actor|
-        if not (actor.state?(23) or actor.state?(24) or actor.state?(50)) #23 is Knocked out, 24 is Untouchable and 42 is Fatigued
+        if not (actor.state?(23) or actor.state?(24) or actor.state?(50)) #23 is Knocked out, 24 is Untouchable and 50 is Fatigued
 		     if (actor.state?(49)) #State 49 = Boss - Kendrian
          actor.sp += 15 
          elsif (actor.state?(51)) and (actor.state?(22)) #State 51 = Calm | 22 = Captured (actor) - Kendrian
@@ -124,7 +124,7 @@ class Scene_Battle
 	     end 
       }
       $game_troop.enemies.each {|enemy|
-       if not (enemy.state?(23) or enemy.state?(24) or enemy.state?(42))
+       if not (enemy.state?(23) or enemy.state?(24) or enemy.state?(50))
         if (enemy.state?(49)) #State 49 = Boss - Kendrian
          enemy.sp += 15 
          else enemy.sp += 10

@@ -68,6 +68,7 @@ Mwatiki
 Tsukemen
 Kendrian
 Animluster
+JCDID
 
 -Map Design-
 Kendrian
@@ -100,15 +101,17 @@ CrimsonWolf64
 -Lead Composer -
 Tsukemen
 
--Intro Themes-
+-Title Theme-
 Napdog
-Kendrian
 
 -Jingles-
 JCDID
 
 -Other Music-
 Aaron Krogh
+Sieg
+Kendrian
+Cherlotte
 
 -Lead Writer-
 ImilianArticuno

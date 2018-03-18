@@ -5265,6 +5265,46 @@
           },
           {
             "typeName": "RPG::EventCommand",
+            "code": 355,
+            "indent": 1,
+            "parameters": [
+              "$game_system.name = \"\""
+            ]
+          },
+          {
+            "typeName": "RPG::EventCommand",
+            "code": 355,
+            "indent": 1,
+            "parameters": [
+              "$game_system.text_justification = "
+            ]
+          },
+          {
+            "typeName": "RPG::EventCommand",
+            "code": 655,
+            "indent": 1,
+            "parameters": [
+              "LEFT"
+            ]
+          },
+          {
+            "typeName": "RPG::EventCommand",
+            "code": 355,
+            "indent": 1,
+            "parameters": [
+              "$game_system.ums_mode = "
+            ]
+          },
+          {
+            "typeName": "RPG::EventCommand",
+            "code": 655,
+            "indent": 1,
+            "parameters": [
+              "FIT_WINDOW_TO_TEXT"
+            ]
+          },
+          {
+            "typeName": "RPG::EventCommand",
             "code": 339,
             "indent": 1,
             "parameters": [
@@ -6400,18 +6440,6 @@
             "code": 122,
             "indent": 0,
             "parameters": [
-              143,
-              143,
-              3,
-              1,
-              200
-            ]
-          },
-          {
-            "typeName": "RPG::EventCommand",
-            "code": 122,
-            "indent": 0,
-            "parameters": [
               155,
               155,
               0,
@@ -6429,6 +6457,18 @@
               0,
               2,
               0
+            ]
+          },
+          {
+            "typeName": "RPG::EventCommand",
+            "code": 122,
+            "indent": 1,
+            "parameters": [
+              143,
+              143,
+              3,
+              1,
+              200
             ]
           },
           {
@@ -29542,7 +29582,7 @@
             "parameters": [
               {
                 "typeName": "RPG::AudioFile",
-                "name": "Boss1",
+                "name": "Fortunes and Omens",
                 "pitch": 100,
                 "volume": 100
               }
@@ -54501,7 +54541,7 @@
             "parameters": [
               {
                 "typeName": "RPG::AudioFile",
-                "name": "Boss1",
+                "name": "Boss2",
                 "pitch": 100,
                 "volume": 100
               }
@@ -62180,7 +62220,7 @@
             "parameters": [
               {
                 "typeName": "RPG::AudioFile",
-                "name": "Boss1",
+                "name": "Boss2",
                 "pitch": 100,
                 "volume": 100
               }
@@ -62984,7 +63024,7 @@
             "parameters": [
               {
                 "typeName": "RPG::AudioFile",
-                "name": "Boss1",
+                "name": "Fortunes and Omens",
                 "pitch": 100,
                 "volume": 100
               }

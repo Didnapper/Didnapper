@@ -3042,60 +3042,6 @@
           "through": false,
           "trigger": 1,
           "walk_anime": true
-        },
-        {
-          "typeName": "RPG::Event::Page",
-          "always_on_top": false,
-          "condition": {
-            "typeName": "RPG::Event::Page::Condition",
-            "self_switch_ch": "A",
-            "self_switch_valid": true,
-            "switch1_id": 1,
-            "switch1_valid": false,
-            "switch2_id": 1,
-            "switch2_valid": false,
-            "variable_id": 1,
-            "variable_valid": false,
-            "variable_value": 0
-          },
-          "direction_fix": false,
-          "graphic": {
-            "typeName": "RPG::Event::Page::Graphic",
-            "blend_type": 0,
-            "character_hue": 0,
-            "character_name": "",
-            "direction": 2,
-            "opacity": 255,
-            "pattern": 0,
-            "tile_id": 0
-          },
-          "list": [
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "move_frequency": 3,
-          "move_route": {
-            "typeName": "RPG::MoveRoute",
-            "list": [
-              {
-                "typeName": "RPG::MoveCommand",
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false
-          },
-          "move_speed": 3,
-          "move_type": 0,
-          "step_anime": false,
-          "through": false,
-          "trigger": 0,
-          "walk_anime": true
         }
       ],
       "x": 4,
@@ -5464,7 +5410,7 @@
               "indent": 2,
               "parameters": [
                 2,
-                "009-CastleTown01"
+                "010-CastleTown02"
               ]
             },
             {
@@ -7105,7 +7051,7 @@
               "indent": 2,
               "parameters": [
                 2,
-                "009-CastleTown01"
+                "010-CastleTown02"
               ]
             },
             {
@@ -10662,11 +10608,14 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 123,
+              "code": 122,
               "indent": 0,
               "parameters": [
-                "A",
-                0
+                340,
+                340,
+                0,
+                0,
+                1
               ]
             },
             {
@@ -10702,14 +10651,14 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 1,
             "switch1_valid": false,
             "switch2_id": 1,
             "switch2_valid": false,
-            "variable_id": 1,
-            "variable_valid": false,
-            "variable_value": 0
+            "variable_id": 340,
+            "variable_valid": true,
+            "variable_value": 1
           },
           "direction_fix": false,
           "graphic": {
@@ -12031,7 +11980,7 @@
               "indent": 2,
               "parameters": [
                 2,
-                "009-CastleTown01"
+                "010-CastleTown02"
               ]
             },
             {
@@ -12471,7 +12420,7 @@
               "indent": 2,
               "parameters": [
                 2,
-                "009-CastleTown01"
+                "010-CastleTown02"
               ]
             },
             {
@@ -13708,7 +13657,7 @@
               "indent": 2,
               "parameters": [
                 2,
-                "009-CastleTown01"
+                "010-CastleTown02"
               ]
             },
             {
@@ -14099,7 +14048,7 @@
               "indent": 2,
               "parameters": [
                 2,
-                "009-CastleTown01"
+                "010-CastleTown02"
               ]
             },
             {
@@ -15233,11 +15182,14 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 123,
+              "code": 122,
               "indent": 1,
               "parameters": [
-                "A",
-                0
+                340,
+                340,
+                0,
+                0,
+                2
               ]
             },
             {
@@ -15308,14 +15260,14 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 1,
             "switch1_valid": false,
             "switch2_id": 1,
             "switch2_valid": false,
-            "variable_id": 1,
-            "variable_valid": false,
-            "variable_value": 0
+            "variable_id": 340,
+            "variable_valid": true,
+            "variable_value": 2
           },
           "direction_fix": false,
           "graphic": {
@@ -16863,7 +16815,7 @@
               "indent": 2,
               "parameters": [
                 2,
-                "009-CastleTown01"
+                "010-CastleTown02"
               ]
             },
             {

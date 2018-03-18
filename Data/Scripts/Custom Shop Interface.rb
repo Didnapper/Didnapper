@@ -29,7 +29,7 @@ self.contents.clear
 if selection == 0
 self.contents.draw_text(0, 0, 448, 32, "Buy, sell, or leave?", 1)
 else
-self.contents.draw_text(0, 0, 448, 32, "Press 'Z' for character compatabilitiy.", 1)
+self.contents.draw_text(0, 0, 448, 32, "Press 'Z' for character compatibility.", 1)
 end
 end
 end

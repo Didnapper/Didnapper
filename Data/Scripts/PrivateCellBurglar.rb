@@ -86,7 +86,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			{'text'=>'Suki1: I wouldn\'t get my hopes up too much if I were you.', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Suki1: You\'re under my watch now. There\'s no bumbling guards for you to trick this time.', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Suki1: Face it, you\'ve probably robbed your last house.', 'talking'=>false,'proc'=>nil},\
-			{'text'=>'Burglar: ... ', 'talking'=>false,'proc'=>nil},\
+			{'text'=>'Burglar: ...', 'talking'=>false,'proc'=>nil},\
 		],\
 		[\
 			{'text'=>'Suki1: So now that you\'re my prisoner I can finally ask you, why were you robbing all those homes?', 'talking'=>false,'proc'=>nil},\
@@ -213,7 +213,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'fear' =>\
 			[\
 				{'text'=>'Suki1: You know, ropes are a good look on you.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Hey now, let\'s not get any crazy ideas. You\'ve already got me roped up enough as it is. ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Hey now, let\'s not get any crazy ideas. You\'ve already got me roped up enough as it is.', 'talking'=>true,'proc'=>nil},\
 			],\
 			'anger' =>\
 			[\
@@ -235,7 +235,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'happiness' =>\
 			[\
 				{'text'=>'Suki1: I\'m glad I finally caught you, a cutie like you doesn\'t belong in just any old jail.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Hehe, well I guess having a cute jailer like you isn\'t so bad... ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Hehe, well I guess having a cute jailer like you isn\'t so bad...', 'talking'=>true,'proc'=>nil},\
 			],\
 			'sadness' =>\
 			[\
@@ -259,7 +259,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 				{'text'=>'Suki1: I\'m glad I finally caught you, a cutie like you doesn\'t belong in just any old jail.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: I don\'t know, I\'ve never been in a prison with so many tied up women before...', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'insult' =>\
 	[\
@@ -269,7 +269,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 				{'text'=>'Suki1: Well, looks like I won our little game in the end.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Who says this is over?', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Suki1: The tight ropes holding you bound say so.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: ... ', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Burglar: ...', 'talking'=>false,'proc'=>nil},\
 			],\
 			'happiness' =>\
 			[\
@@ -335,32 +335,32 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 		{\
 			'neutral' =>\
 			[\
-				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat. ', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: I will, just – ugh – give me a minute to – ugh, damn! These knot are ridiculously tight!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'happiness' =>\
 			[\
-				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat. ', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Hehe, I guess you\'ll have to stick around and watch me. Otherwise I might just slip out your hands. ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat.', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Burglar: Hehe, I guess you\'ll have to stick around and watch me. Otherwise I might just slip out your hands.', 'talking'=>true,'proc'=>nil},\
 			],\
 			'sadness' =>\
 			[\
-				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat. ', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Well, I can\'t do it with you watching!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'fear' =>\
 			[\
-				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat. ', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Don\'t pressure me!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'anger' =>\
 			[\
-				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat. ', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Yeah, laugh it up kidnapper, lets see if you\'re still laughing when I get out\'a here and take you with me!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'shyness' =>\
 			[\
-				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat. ', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: Well, go on then. Let\'s see you pull another miraculous escape out of your hat.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Don\'t tease me!', 'talking'=>true,'proc'=>nil},\
 			]\
 		},\
@@ -393,9 +393,9 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'shyness' =>\
 			[\
 				{'text'=>'Suki1: You know, you\'re only the second cutest thief I\'ve ever encountered.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: W-What?! But I thought I was the only thief girl in your life! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: W-What?! But I thought I was the only thief girl in your life!', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'threaten' =>\
 	[\
@@ -463,7 +463,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'shyness' =>\
 			[\
 				{'text'=>'Suki1: You know I\'ve been thinking about getting a maid to clean these cells. What do you say, ready to pay your debt to society?', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: You mean I\'d have to dress up like a maid! In some frilly dress! I\'d die of embarrassment! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: You mean I\'d have to dress up like a maid! In some frilly dress! I\'d die of embarrassment!', 'talking'=>true,'proc'=>nil},\
 			]\
 		},\
 		{\
@@ -474,7 +474,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			],\
 			'happiness' =>\
 			[\
-				{'text'=>'Suki1: I don\'t like the idea of you escaping again. Hmmm... I wonder if I could get some chains in here... ', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: I don\'t like the idea of you escaping again. Hmmm... I wonder if I could get some chains in here...', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Ooh! I\'ve never tried to escape from chains before! This could be fun!', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Suki1: (That wasn\'t what I was expecting...)', 'talking'=>false,'proc'=>nil},\
 			],\
@@ -532,9 +532,9 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'shyness' =>\
 			[\
 				{'text'=>'Suki1: You know, I\'ve got a cute thief friend who\'s dying to have some fun with you.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: You mean while I\'m still tied up?! That\'s a dirty trick! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: You mean while I\'m still tied up?! That\'s a dirty trick!', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'slap' =>\
 	[\
@@ -542,12 +542,12 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'neutral' =>\
 			[\
 				{'text'=>'Suki1: Maybe this will straighten you out.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Ouch! How dare you even touch me! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Ouch! How dare you even touch me!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'happiness' =>\
 			[\
 				{'text'=>'Suki1: Maybe this will straighten you out.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Ow! Don\'t touch me! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Ow! Don\'t touch me!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'sadness' =>\
 			[\
@@ -666,7 +666,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 				{'text'=>'Suki1: You\'ve been a very naughty girl.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Ouch! What do I get if I\'m good...', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'tickle' =>\
 	[\
@@ -748,7 +748,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'sadness' =>\
 			[\
 				{'text'=>'Suki1: You\'re always so serious, I wanna see you smile!', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Well you could start by letting me out of– HAHAHAHAH! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Well you could start by letting me out of– HAHAHAHAH!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'fear' =>\
 			[\
@@ -799,7 +799,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 				{'text'=>'Suki1: Let\'s see how ticklish you are!', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Oh no! Seriously I can\'t take being AHAHAHAHAH! Please! Stop! N-Not while I\'m tied up like -AHAHAHAHA!', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'kiss' =>\
 	[\
@@ -829,7 +829,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'anger' =>\
 			[\
 				{'text'=>'Suki1: Mmmm, I\'ve been wanting to do this for a while...', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Mmmmph! How dare you! Do I look like that kind of girl?! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Mmmmph! How dare you! Do I look like that kind of girl?!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'shyness' =>\
 			[\
@@ -873,7 +873,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'neutral' =>\
 			[\
 				{'text'=>'Suki1: Mmmm... Here\'s something for you to think about~', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Mmmm... was that for being good? ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Mmmm... was that for being good?', 'talking'=>true,'proc'=>nil},\
 			],\
 			'happiness' =>\
 			[\
@@ -894,7 +894,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'anger' =>\
 			[\
 				{'text'=>'Suki1: Mmmm... Here\'s something for you to think about~', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Mmmph! How dare you kiss me while I\'m tied up and can\'t defend myself! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Mmmph! How dare you kiss me while I\'m tied up and can\'t defend myself!', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Suki1: But that\'s when you\'re the cutest!', 'talking'=>false,'proc'=>nil},\
 			],\
 			'shyness' =>\
@@ -934,7 +934,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 				{'text'=>'Suki1: Mmmm... I bet you\'ll like this~', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Mmmm... So this is why you tied me up.', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'ungag' =>\
 	[\
@@ -976,7 +976,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'neutral' =>\
 			[\
 				{'text'=>'Suki1: Okay, I\'ll let you talk for a while.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Uhh, that tasted horrible! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Uhh, that tasted horrible!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'happiness' =>\
 			[\
@@ -1064,14 +1064,14 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'anger' =>\
 			[\
 				{'text'=>'Suki1: Hmmm, lets take this off, I wanna see your lips.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Why? So you can shove another one of your gags in my mouth?! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Why? So you can shove another one of your gags in my mouth?!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'shyness' =>\
 			[\
 				{'text'=>'Suki1: Hmmm, lets take this off, I wanna see your lips.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Hey, why are looking at me like that?', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'blindfold_on' =>\
 	[\
@@ -1104,7 +1104,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'shyness' =>\
 			[\
 				{'text'=>'Suki1: Lets see you steal what you can\'t see!', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Hey! Get this thing off me! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Hey! Get this thing off me!', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Burglar: Hello...?', 'talking'=>true,'proc'=>nil},\
 			]\
 		},\
@@ -1139,7 +1139,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			[\
 				{'text'=>'Suki1: I\'d bet you\'d look cute with this on!', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: Hey! Get this off me!', 'talking'=>true,'proc'=>nil},\
-				{'text'=>'Burglar: Hello? Hey! Don\'t leave me like this! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Hello? Hey! Don\'t leave me like this!', 'talking'=>true,'proc'=>nil},\
 			]\
 		},\
 		{\
@@ -1166,7 +1166,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'anger' =>\
 			[\
 				{'text'=>'Suki1: Let\'s see you escape with this on!', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Hmph, I could get out of here anytime I want. I-I just don\'t want to escape yet. ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Hmph, I could get out of here anytime I want. I-I just don\'t want to escape yet.', 'talking'=>true,'proc'=>nil},\
 			],\
 			'shyness' =>\
 			[\
@@ -1205,7 +1205,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 				{'text'=>'Suki1: Close you eyes – never mind I\'ll do it for you.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: W-What? Hey! Get this thing off me! Please, I don\'t like people staring at me!', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'blindfold_off' =>\
 	[\
@@ -1223,7 +1223,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'sadness' =>\
 			[\
 				{'text'=>'Suki1: Okay lets take this off, for now...', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: What does that mean? ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: What does that mean?', 'talking'=>true,'proc'=>nil},\
 			],\
 			'fear' =>\
 			[\
@@ -1233,7 +1233,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 			'anger' =>\
 			[\
 				{'text'=>'Suki1: Okay lets take this off, for now...', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Burglar: Just you try and blindfold me again. I-I bite you know! ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Burglar: Just you try and blindfold me again. I-I bite you know!', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Suki1: Do you really want to know what happens if you bite me?', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: ...', 'talking'=>false,'proc'=>nil},\
 			],\
@@ -1339,7 +1339,7 @@ class PrivateCellDamselBurglar < PrivateCellDamsel
 				{'text'=>'Suki1: I wanna look you in the eye for this next part...', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Burglar: W-What?! Hold on a minute – hey guard dude, help! This woman\'s bat-crazy!', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	]\
 };
 

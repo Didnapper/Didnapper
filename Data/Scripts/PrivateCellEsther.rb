@@ -198,7 +198,7 @@ class PrivateCellDamselEsther < PrivateCellDamsel
 			],\
 			'neutral' =>\
 			[\
-				{'text'=>'  Suki1:  You may have lost to me, but you were still pretty impressive', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'  Suki1:  You may have lost to me, but you were still pretty impressive.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'  Esther:  Must you remind me?', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'  Suki1:  (She\'s trying not to smile…)', 'talking'=>false,'anomaly'=>true,'proc'=>nil}\
 			],\

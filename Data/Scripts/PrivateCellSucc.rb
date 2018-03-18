@@ -89,13 +89,13 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			{'text'=>'Suki1: So... How did we end up here in the first place?', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Succubus: Let\'s just say a certain someone wanted company and I was happy to oblige.', 'talking'=>true,'proc'=>nil},\
 			{'text'=>'Suki1: ... Wait, what do you mean?', 'talking'=>false,'proc'=>nil},\
-			{'text'=>'Succubus: Hehehe~', 'talking'=>true,'proc'=>method(:face_happy)}\
+			{'text'=>'Succubus: Hehehe~', 'talking'=>true,'proc'=>method(:face_happy)},\
 		],\
 		[\
 			{'text'=>'Suki1: Your skin is so soft, you look like you\'re twenty!', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Succubus: Thanks, darling, but I\'m much older than that.', 'talking'=>true,'proc'=>nil},\
 			{'text'=>'Suki1: Oh yeah, don\'t Succubi have immortality or something? How is that?', 'talking'=>false,'proc'=>nil},\
-			{'text'=>'Succubus: It can get lonely sometimes, You live longer than those around you and you experience things that you should\'t ever have to...', 'talking'=>true,'proc'=>nil},\
+			{'text'=>'Succubus: It can get lonely sometimes. You live longer than those around you and you experience things that you shouldn\'t ever have to...', 'talking'=>true,'proc'=>nil},\
 			{'text'=>'Suki1: I\'m  sorry...', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Succubus: Don\'t be... Not all those experiences are bad, hon.', 'talking'=>true,'proc'=>nil},\
 		],\
@@ -105,7 +105,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			{'text'=>'Suki1: What\'s the matter?', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Succubus: No offense darling, but I just don\'t really feel like talking...', 'talking'=>true,'proc'=>nil},\
 			{'text'=>'Suki1: Oh, I just thought we could get to know each other a little bit bi-', 'talking'=>false,'proc'=>nil},\
-			{'text'=>'Succubus: Look, dollface, you\'re better off gagging me at this point... You\'ll get the same response.', 'talking'=>true,'proc'=>method(:face_annoyed)}\
+			{'text'=>'Succubus: Look, dollface, you\'re better off gagging me at this point... You\'ll get the same response.', 'talking'=>true,'proc'=>method(:face_annoyed)},\
 		],\
 		[\
 			{'text'=>'Suki1: What do you do when you\'re not chasing after men?', 'talking'=>false,'proc'=>nil},\
@@ -116,7 +116,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			{'text'=>'Succubus: Heh, well.. Due to a current sequence of events  I can\'t say I have tried anything else.', 'talking'=>true,'proc'=>nil},\
 			{'text'=>'Suki1: ...', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Suki1: You\'re enjoying this, aren\'t you?', 'talking'=>false,'proc'=>nil},\
-			{'text'=>'Succubus: Maybe just a bit too much, darling.', 'talking'=>true,'proc'=>method(:face_happy)}\
+			{'text'=>'Succubus: Maybe just a bit too much, darling.', 'talking'=>true,'proc'=>method(:face_happy)},\
 		],\
 		[\
 			{'text'=>'Suki1: For a creature of the night, you aren\'t that creepy... I mean, I expected a zombie or something.', 'talking'=>false,'proc'=>nil},\
@@ -147,7 +147,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			{'text'=>'Succubus: Gag me first, we\'ll talk then, Hon.', 'talking'=>true,'proc'=>nil},\
 		],\
 		[\
-			{'text'=>'Suki1: Okay, fine... Please tell me your name? pretty please?', 'talking'=>false,'proc'=>nil},\
+			{'text'=>'Suki1: Okay, fine... Could you tell me your name, pretty please?', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Succubus: Well, well... what a pleasant surprise. All this for little old me?', 'talking'=>true,'proc'=>method(:face_default)},\
 			{'text'=>'Suki1: So will you please tell me?', 'talking'=>false,'proc'=>nil},\
 			{'text'=>'Succubus: I don\'t know, maybe if you beg a little harder?', 'talking'=>true,'proc'=>nil},\
@@ -206,7 +206,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 		{\
 			'neutral' =>\
 			[\
-				{'text'=>'Suki: Dreams in which you meet demons are always portrayed as nightmares... But this is far from one', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki: Dreams in which you meet demons are always portrayed as nightmares... But this doesn\'t seem like much of a nightmare...', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Is this a dream, though?', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Suki1: ...', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Hehehe~', 'talking'=>true,'proc'=>nil},\
@@ -240,7 +240,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			'shyness' =>\
 			[\
 				{'text'=>'Suki1: You look really good tied up~', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Succubus: And I bet you would too', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Succubus: And I bet you would too...', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Succubus: Care to find out?~', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Suki1: Nice try... But you\'re my captive now.', 'talking'=>false,'proc'=>nil},\
 			]\
@@ -268,7 +268,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			],\
 			'anger' =>\
 			[\
-				{'text'=>'Suki1: I want to tell you all the things that look great about you... But then we\'d sit here all day', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: I want to tell you all the things that look great about you... But then we\'d sit here all day...', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Hehehe~', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Succubus: We have all the time in the world, darling~', 'talking'=>true,'proc'=>nil},\
 			],\
@@ -316,7 +316,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Succubus: And you\'re really cute for a kidnapper~', 'talking'=>true,'proc'=>nil},\
 				{'text'=>'Suki1: ...', 'talking'=>false,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'insult' =>\
 	[\
@@ -461,7 +461,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Suki1: So... How did you ever become a succesful succubus looking like that?', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Honey, that\'s exactly why I became successful... Do you want me to show you?~', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'threaten' =>\
 	[\
@@ -612,7 +612,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Suki1: Tie you so that you can\'t move an inch, or tie you just tight enough that you can\'t escape...', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Honey... You\'re listing the same thing twice~', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'slap' =>\
 	[\
@@ -666,7 +666,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			],\
 			'fear' =>\
 			[\
-				{'text'=>'Suki1: Time for a little punishment', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: Time for a little punishment.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Mmm... Punishment? Seems like a reward~', 'talking'=>true,'proc'=>nil},\
 			],\
 			'anger' =>\
@@ -745,7 +745,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Suki1: Take that!', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Oh... Gladly~', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'tickle' =>\
 	[\
@@ -763,7 +763,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			'sadness' =>\
 			[\
 				{'text'=>'Suki1: Let\'s see if you\'re ticklish~', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Succubus: Hehehe! Ahahaha', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Succubus: Hehehe! Ahahaha!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'fear' =>\
 			[\
@@ -778,24 +778,24 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			'shyness' =>\
 			[\
 				{'text'=>'Suki1: Let\'s see if you\'re ticklish~', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Succubus: hehehahahaaaa!', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Succubus: Hehehahahaaaa!', 'talking'=>true,'proc'=>nil},\
 			]\
 		},\
 		{\
 			'neutral' =>\
 			[\
-				{'text'=>'Suki1: Let\'s see if you\'re ticklish~', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Suki1: I wonder...', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: A-hahahaaa! Hehehehe!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'happiness' =>\
 			[\
-				{'text'=>'Suki1: Let\'s see if you\'re ticklish~', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Succubus: hehehehehehe~', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Suki1: I wonder how ticklish you are...', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Succubus: Hehehe...', 'talking'=>true,'proc'=>nil},\
 			],\
 			'sadness' =>\
 			[\
-				{'text'=>'Suki1: Let\'s see if you\'re ticklish~', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Succubus: Hehehe! Ahahaha', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Suki1: I wonder how ticklish you are...', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Succubus: Heeeheee...', 'talking'=>true,'proc'=>nil},\
 			],\
 			'fear' =>\
 			[\
@@ -820,14 +820,14 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Succubus: A-hahahaaa! Hehehehe!', 'talking'=>true,'proc'=>nil},\
 			],\
 			'happiness' =>\
-      [\
+			[\
 				{'text'=>'Suki1: I wonder how ticklish you are...', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Heeeheeeheee... I love a playful toy.', 'talking'=>true,'proc'=>nil},\
 			],\
 			'sadness' =>\
 			[\
-				{'text'=>'Suki1: I wonder how ticklish you are...', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Succubus: Heeeheee...', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Suki1: I wonder how ticklish you are...', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Succubus: Heeeheee... You sure know your way around the body, honey.', 'talking'=>true,'proc'=>nil},\
 			],\
 			'fear' =>\
 			[\
@@ -841,8 +841,8 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			],\
 			'shyness' =>\
 			[\
-				{'text'=>'Suki1: I wonder... Does this work?', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Succubus: Hahahahaha! Aahaha!', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Suki1: Tiiiickle tickle tickle tickle~', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Succubus: Hahahahaha!', 'talking'=>true,'proc'=>nil},\
 			]\
 		},\
 		{\
@@ -872,12 +872,12 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Suki1: How\'s this feeling?~', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Hahahahaha!', 'talking'=>true,'proc'=>nil},\
 			],\
-#			'shyness' =>\
-#			[\
-#				{'text'=>'Suki1: How\'s this feeling?', 'talking'=>false,'proc'=>nil},\
-#				{'text'=>'Succubus: Hahahahaha!', 'talking'=>true,'proc'=>nil},\	
-#			]\
-		}\
+			'shyness' =>\
+			[\
+				{'text'=>'Suki1: How\'s this feeling?~', 'talking'=>false,'proc'=>nil},\
+				{'text'=>'Succubus: Hahahahaha!', 'talking'=>true,'proc'=>nil},\
+			]\
+		},\
 	],\
 	'kiss' =>\
 	[\
@@ -1020,7 +1020,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Suki1: How\'s this?~', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Mmm~', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'ungag' =>\
 	[\
@@ -1126,6 +1126,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			[\
 				{'text'=>'Suki1: Let\'s hear your voice again~', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Do we have to?~', 'talking'=>true,'proc'=>nil},\
+				
 			],\
 			'happiness' =>\
 			[\
@@ -1152,7 +1153,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Suki1: Let\'s hear your voice again~', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Hm? I could\'ve gone longer~', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'blindfold_on' =>\
 	[\
@@ -1261,7 +1262,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 			'happiness' =>\
 			[\
 				{'text'=>'Suki1: Let\'s try a blindfold.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'Succubus: Aww... Now I can\'t see your pretty face, hon.  ', 'talking'=>true,'proc'=>nil},\
+				{'text'=>'Succubus: Aww... Now I can\'t see your pretty face, hon.', 'talking'=>true,'proc'=>nil},\
 			],\
 			'sadness' =>\
 			[\
@@ -1283,7 +1284,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Suki1: Let\'s try a blindfold.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: You can keep it on if you\'d like~', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	],\
 	'blindfold_off' =>\
 	[\
@@ -1418,7 +1419,7 @@ class PrivateCellDamselSucc < PrivateCellDamsel
 				{'text'=>'Suki1: Let\'s see your pretty eyes again.', 'talking'=>false,'proc'=>nil},\
 				{'text'=>'Succubus: Ooh, now I can see your pretty face again.', 'talking'=>true,'proc'=>nil},\
 			]\
-		}\
+		},\
 	]\
 };
 	end

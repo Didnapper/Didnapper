@@ -8619,6 +8619,14 @@
           "list": [
             {
               "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "$game_system.message_event = -1"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 101,
               "indent": 0,
               "parameters": [
