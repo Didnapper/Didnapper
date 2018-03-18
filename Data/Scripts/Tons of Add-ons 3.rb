@@ -1134,7 +1134,7 @@ end
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 SKILL_IDS_HP = [999] # add any Skill IDs and separate them with commas
-SKILL_IDS_SP = [150, 177, 178] # add any Skill IDs and separate them with commas
+SKILL_IDS_SP = [150] # add any Skill IDs and separate them with commas
 UNDEAD_IDS = [999] # add IDS and separate them with commas
 UNDEAD_SP = [999] # add IDS and separate them with commas
 

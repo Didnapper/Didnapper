@@ -2060,7 +2060,7 @@
     "10": {
       "typeName": "RPG::Event",
       "id": 10,
-      "name": "Camilla",
+      "name": "Bunny",
       "pages": [
         {
           "typeName": "RPG::Event::Page",
@@ -2089,14 +2089,6 @@
             "tile_id": 0
           },
           "list": [
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 101,
-              "indent": 0,
-              "parameters": [
-                "\\e[10]I hope you have a good time here..."
-              ]
-            },
             {
               "typeName": "RPG::EventCommand",
               "code": 0,

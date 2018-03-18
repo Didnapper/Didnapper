@@ -8462,6 +8462,11 @@
                   "list": [
                     {
                       "typeName": "RPG::MoveCommand",
+                      "code": 38,
+                      "parameters": []
+                    },
+                    {
+                      "typeName": "RPG::MoveCommand",
                       "code": 16,
                       "parameters": []
                     },
@@ -8473,6 +8478,18 @@
                   ],
                   "repeat": false,
                   "skippable": false
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "typeName": "RPG::MoveCommand",
+                  "code": 38,
+                  "parameters": []
                 }
               ]
             },

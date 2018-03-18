@@ -6473,6 +6473,14 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 2,
+              "parameters": [
+                "$game_system.message_event = -1"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 102,
               "indent": 2,
               "parameters": [
@@ -9355,7 +9363,7 @@
           "move_type": 0,
           "step_anime": false,
           "through": false,
-          "trigger": 1,
+          "trigger": 0,
           "walk_anime": true
         },
         {
@@ -9418,43 +9426,6 @@
               "indent": 1,
               "parameters": [
                 "$game_system.comic_style = TALK1"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 209,
-              "indent": 1,
-              "parameters": [
-                -1,
-                {
-                  "typeName": "RPG::MoveRoute",
-                  "list": [
-                    {
-                      "typeName": "RPG::MoveCommand",
-                      "code": 19,
-                      "parameters": []
-                    },
-                    {
-                      "typeName": "RPG::MoveCommand",
-                      "code": 0,
-                      "parameters": []
-                    }
-                  ],
-                  "repeat": false,
-                  "skippable": false
-                }
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 509,
-              "indent": 1,
-              "parameters": [
-                {
-                  "typeName": "RPG::MoveCommand",
-                  "code": 19,
-                  "parameters": []
-                }
               ]
             },
             {
@@ -13150,7 +13121,7 @@
             "skippable": false
           },
           "move_speed": 3,
-          "move_type": 0,
+          "move_type": 1,
           "step_anime": false,
           "through": false,
           "trigger": 0,
