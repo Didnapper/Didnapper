@@ -62766,6 +62766,43 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                676,
+                676,
+                0,
+                1,
+                343
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                676,
+                676,
+                1,
+                2,
+                20,
+                40
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                676,
+                676,
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 108,
               "indent": 0,
               "parameters": [
@@ -62793,7 +62830,7 @@
                 472,
                 0,
                 0,
-                8
+                6
               ]
             },
             {
@@ -62830,6 +62867,18 @@
                 0,
                 0,
                 2
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                677,
+                677,
+                0,
+                0,
+                3
               ]
             },
             {
@@ -62877,7 +62926,7 @@
                 25,
                 0,
                 0,
-                22
+                40
               ]
             },
             {
@@ -63049,7 +63098,7 @@
               "indent": 0,
               "parameters": [
                 21,
-                "FSSukiTiedGagOTMWorried",
+                "FSSukiTiedGagOTMBd",
                 0,
                 0,
                 0,
@@ -63095,6 +63144,19 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "typeName": "RPG::AudioFile",
+                  "name": "Gag Wakeup",
+                  "pitch": 115,
+                  "volume": 100
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 111,
               "indent": 0,
               "parameters": [
@@ -63128,7 +63190,7 @@
               "indent": 0,
               "parameters": [
                 21,
-                "FSSukiTiedGagOTMWorried",
+                "FSSukiTiedGagOTMBd",
                 0,
                 0,
                 0,
@@ -63161,7 +63223,7 @@
               "indent": 0,
               "parameters": [
                 21,
-                "FSSukiTiedGagOTMHit",
+                "FSSukiTiedGagOTMBd",
                 0,
                 0,
                 0,
@@ -63179,8 +63241,8 @@
               "parameters": [
                 {
                   "typeName": "RPG::AudioFile",
-                  "name": "shortmmmph5",
-                  "pitch": 100,
+                  "name": "Gag Wakeup After",
+                  "pitch": 110,
                   "volume": 80
                 }
               ]
@@ -63199,7 +63261,7 @@
               "indent": 0,
               "parameters": [
                 21,
-                "FSSukiTiedGagOTMDefeated",
+                "FSSukiTiedGagOTMBdHit",
                 0,
                 0,
                 0,
@@ -63232,6 +63294,27 @@
               "indent": 0,
               "parameters": [
                 "(Some kind of cloth... can’t budge it...)"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "typeName": "RPG::AudioFile",
+                  "name": "Gag Moan 07",
+                  "pitch": 110,
+                  "volume": 100
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Mmmmmmph...."
               ]
             },
             {
@@ -63484,9 +63567,9 @@
               "parameters": [
                 {
                   "typeName": "RPG::AudioFile",
-                  "name": "WhateverGag",
-                  "pitch": 100,
-                  "volume": 100
+                  "name": "Test 4",
+                  "pitch": 120,
+                  "volume": 80
                 }
               ]
             },
@@ -63537,8 +63620,8 @@
               "parameters": [
                 {
                   "typeName": "RPG::AudioFile",
-                  "name": "mediummmmph2",
-                  "pitch": 110,
+                  "name": "Gag Moan 04",
+                  "pitch": 80,
                   "volume": 90
                 }
               ]
@@ -64147,6 +64230,19 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "typeName": "RPG::AudioFile",
+                  "name": "Ungag 02",
+                  "pitch": 115,
+                  "volume": 95
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 121,
               "indent": 0,
               "parameters": [
@@ -64157,23 +64253,20 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 117,
+              "code": 121,
               "indent": 0,
               "parameters": [
-                92
+                590,
+                590,
+                0
               ]
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 250,
+              "code": 117,
               "indent": 0,
               "parameters": [
-                {
-                  "typeName": "RPG::AudioFile",
-                  "name": "Light mmphf 6 ungagged",
-                  "pitch": 105,
-                  "volume": 85
-                }
+                92
               ]
             },
             {
@@ -64445,7 +64538,7 @@
               "code": 101,
               "indent": 0,
               "parameters": [
-                "\\e[0]...Fine."
+                "\\e[0]...But..."
               ]
             },
             {
@@ -64546,23 +64639,23 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 106,
-              "indent": 0,
-              "parameters": [
-                10
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
               "code": 250,
               "indent": 0,
               "parameters": [
                 {
                   "typeName": "RPG::AudioFile",
-                  "name": "Light mmphf 5",
-                  "pitch": 95,
+                  "name": "Force Gag 03",
+                  "pitch": 105,
                   "volume": 95
                 }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 0,
+              "parameters": [
+                10
               ]
             },
             {
@@ -64572,6 +64665,16 @@
               "parameters": [
                 144,
                 144,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                590,
+                590,
                 1
               ]
             },
@@ -64605,6 +64708,27 @@
               "indent": 0,
               "parameters": [
                 "harness. Hope we’re clear."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "typeName": "RPG::AudioFile",
+                  "name": "Force Gag 02",
+                  "pitch": 80,
+                  "volume": 95
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\t1Mmmmmmhf!"
               ]
             },
             {
@@ -73646,7 +73770,7 @@
               "parameters": []
             }
           ],
-          "move_frequency": 3,
+          "move_frequency": 6,
           "move_route": {
             "typeName": "RPG::MoveRoute",
             "list": [
@@ -73659,7 +73783,7 @@
             "repeat": true,
             "skippable": false
           },
-          "move_speed": 3,
+          "move_speed": 5,
           "move_type": 0,
           "step_anime": false,
           "through": true,
@@ -73943,6 +74067,16 @@
               "parameters": [
                 144,
                 144,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                590,
+                590,
                 0
               ]
             },

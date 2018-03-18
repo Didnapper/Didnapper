@@ -1,0 +1,194 @@
+Welcome to Overkill Edition: The version of Didnapper for masochists. 
+_________________________________
+List of Changes: 
+Overkill Edition 1.1 (01/30/2018)
+Hi everyone, this is just an update to fix some of the most glaring issues reported for the previous version.
+
+Compatability with Suki/Carol/Cherisa
+	- Suki and Carol are now subject to the same absurdity as Athena and Evelyn when attempting to escape from chains.
+	- Cherisa is in a more rudimentary stage as I can't really make adequate art for her.
+Practice fight results: Added from Yuti's mod, plus my edits.
+	- Your allies will send you off to escape from some prison upon defeating you, and you can do the same to them. (So far tested with Athena/Evelyn) 
+Normal Escape Level: Escape level now works normally again, and can still be set to 1 while escaping using the cheat "LVLDOWN"
+New Cheats: (To be applied while escaping)
+	- "CHAIN" Activates chains if not already applied.
+	- "LVLDOWN" Sets Escape level to 1.
+	- "NORM" Removes additional restraints (Straitjacket, Ridiculous Chains, etc.)
+	- "CHAIN" Switches to chains if currently in ropes (You can also just press and hold the "W" key)
+	- "LVLDOWN" Sets escape level to 1.
+	- "ROPE" Switches to ropes if currently in chains.
+	- "IAMNOOB" Switches to ropes AND resets all meters to positive values, removing the blindfold entirely.
+	
+	- "LOCK" and "BUNNY" still work, see previous.
+	
+Escapable additional restraints
+	- Random chance to escape (1 in 150) whenever struggling in additional restraints. (will set arms meter to -250)
+Blind Effects
+	- Screen darkens corresponding to level of blindfold.
+	- (The second Level of darkness feels a bit too much so i'll probably change that later.)
+Sounds
+	- Some edits to sounds for struggling
+Struggle timer
+	- Timer shortens as arms meter is more negative. Experimenting witht this.
+Timer cutoff
+	- If you miss while struggling, the timer is immediately cut off.
+
+Still working on fixing the character switcher and expanding the new areas I created. Escaping from the areas themselves
+has not been tested. Please tell me of any (of the many) bugs you will find. Thanks for downloading, hope you enjoy!
+
+
+Fixes from previous version:
+- No longer freezes upon trying to enter basement floor of lair
+- Fewer issues with teleporting the player to the wrong place after losing a battle
+- Infinite loop upon failing the pirate escape no longer occurs
+- Fixed crashes at certain points in missions
+
+
+KNOWN ISSUES:
+- Character Switcher breaks the game
+- Guards teleport the player elsewhere
+- Guards to not work correctly
+- Tilesets are messed up for collision
+
+
+F.A.Q.
+
+Q. How do I access the new areas?
+A. Step on the pink rug in the Lair's Main Hall, above the left hallway.
+______________________________________________________________________________________________________
+Overkill Edition 1.0 (12/20/2017)
+Beware: The saving error with "time must be positive" still occurs. Try sleeping a few times to fix it.
+This mod is essentially contains two new areas: the "Desert Challenge" and "Winter Prison". They escape sequences which I am implementing with new game mechanics
+and graphics from other modders and artists. Most of the stuff is done with photoshop, just altering and pasting images.
+
+Of course MANY thanks to the entire crew behind Didnapper, all my fellow modders, and of course YOU, who have provided the assets and soul to this project.
+
+- New Hub area:
+	- The Hub has been updated to be less of a mess.
+		< For Desert Challenge
+		> For Winter Prison
+			> Interior
+			V Exterior
+- Progressive Restraints:
+	- As the Arms Meter descends farther into negatives (beyond -250), the restraints on the player will be visibly more strict (and ridiculous)
+	Currently this is only implemented for chains on Athena and a straitjacket on Evelyn. (Working on Suki/Carol)
+		- Being in this state actually reduces the effectiveness of ALL struggling. This can make it impossible to escape without the guard's mercy
+		to release you from the additional restraints.
+	- As of now, I've only created 1 additional "stage" of restraints, but in the future things could go even further,
+	or add more intermediary stages.
+	- The different stages could conceivably be separated between arms, legs, gag, and blindfold as well, but this needs some more work.
+
+Magical Security:
+- Upon a missed struggle, All restraint meters automatically go down (left) by 20 points, even re-binding your legs, re-gagging- or re-blindfolding you if they were free!
+- On Athena, having an arms meter below -700 activates the Emergency Prisoner Restraining Rune, rapidly draining all restraint meters left whenever an attempt to struggle
+is made. 
+	- This also causes the time points to rapidly tick downwards during struggle.
+
+- Character Selection:
+	- The Lair Main Hall now has some chess pieces you can use to change characters.
+		- I'm trying to add the ability to play as other character's we haven't gotten a chance to yet, such as Alyssa, Cherisa, or even our lord and savior Leroy.
+		- I've had some issues when switching from another character to Suki, as the game brings up her old models from 1.6 in some instances and breaks the game.
+
+- Desert Challenge Area:
+	- Being updated and expanded. Will probably turn into a rescue mission of sorts too.
+	- Pit traps scattered around can cause an instant gameover. Trying to figure out how to change that into something more interesting.
+- Sprites added:
+	- When in chains, the character's overworld sprite actually shows grey chains! How cool is that? (Currently only for Athena and Evelyn)
+
+- Winter Prison
+	- A prison run by Ghiaccio Guards
+	- Has a regular cell block and a secure single cell.
+	- If you annoy the guard too much (Failed charm, struggling noise), you will no longer have the option to charm or knock them out. 
+	Instead, the guard will immediately tighten your restraints upon investigating you.
+	- When chains are active, you will need to find a lockpick to free your arms. If you are carrying the lockpick and 
+	the guard tightens your restraints for any reason, however, she will find and confiscate it.	
+	- The outside area has nothing in it for now
+	- The interior will be expanded in the future, possibly for a mission-esque kind of thing.
+
+- Blind and Helpless:
+	- Blind Meter value under -100 REMOVES THE STRUGGLE ARROWS! Have fun not escaping.
+		- After  bit of testing, I changed this to re-reveal the arrows if you guess right once, resetting the Blind Meter to 0.
+		- In the future i'll try to add a screen-darkening effect to this too.
+
+- A Hardcore experience:
+	- If you so wish, you can disable cheats by entering the code "LOCK"
+	- Additionally, the code "BUNNY" activates the maximum progressive restraints phase.
+Notes:
+All the fights are really unwinnable at the moment, things will get tweaked.
+
+I still need to figure out how to make proper guard behavior. Until then, there will just be a lot of guards running around randomly that will crash into you sometimes.
+I'm also trying to figure out a way to make failing one escape sequence lead to another escape sequence. Everything I've tried so far has either not run at all or
+worked for the first struggling but then the screen goes black and the escape sequence cannot continue. 
+
+This is very much still a work-in-progress, with many unfinished and bugged things scattered around the game. Please bring them to my attention if you find any!
+Suggestions are always welcome.
+
+Hope you enjoy! 
+~David~
+
+IN THE WORKS:
+- Vine escape:
+	- Though I'm seriously lacking in the art department, it's possible to simply replace the normal ropes in an escape sequence with green
+	vine-looking things. Not sure how high interest in that would be, so I've held off on it for now.
+_________________________________________________________________________________________________________________________________
+PREVIOUS CHANGES
+v0.9:
+Escape System:
+- No more safetey net: 
+	- There is no longer a maximum to the tightness of restraints, so getting caught by a guard 
+	  at a seemingly "full" meter will put the value off the charts, maybe even off the screen!
+- Athena: NEW Escape perk:
+	- Successful ‘hits’ while struggling add to a variable (+35), like the opposite of Carol’s perk.
+	- When the variable crosses certain thresholds, she gains a bonus to all types of struggle.
+	- When she misses during struggle, the variable gets -1000.
+	- Attempting to struggle while the variable is below a certain negative value will:
+      	  - On miss: Lose a time point
+      	  - On hit: Heavily subtract progress on the struggle meter
+	- While struggling, the variable also quickly ticks down, so you must be active and quick.
+
+- Carol: More polarizing perk
+	- The bonus and penalty for Carol's perk have been made substantially more pronounced.
+
+- Evelyn: More tired
+	- She has a constant (-2) instead of (-1) while gagged. Why? Maybe she liked being tied up now.
+- Escape training
+	- The guard will now check and tighten the player's restraints if she makes too much noise.
+
+New Areas:
+- "The Hub": Walk on the upper discolored tile in the Main Hall of the Lair
+	- Desert Challenge: Walk straight left upon entering the Hub onto the Red Carpet
+		- There are some bags on the ground the player can interact with. There is a random chance that they will either:
+			- 1) Loosen arms significantly 2) Forcibly lock the player in chains/ropes
+		- If you manage to get loose and fight the guards, chances are the fight won't go well for you, so there is another option:
+			- Escape through a loose grate in the wall 
+		- The chains on your arms and your gag cannot be unlocked without a key. It is located somewhere on the top wall and will
+		allow you to struggle free. (Not sure if it works properly).
+	- All the other special tiles transport the player elsewhere, but most are dead ends or simply warps to other parts of the game.
+	- You can start a fight with Marcia and her goons by talking to her.
+Play as other characters:
+- You can roam around the world and do missions as Carol, Athena, or Evelyn Alone. 
+  However, going outside towards the carriage adds Suki back to the party and removes the others. I'm not yet sure how to fix this.
+
+
+Notes:
+- I had a mechanic in place that would constantly "drain" the struggle meters to the left while
+  struggling, but removed it for now because it made the ridiculousness too ridiculous.
+- I've been trying to add graphics for more extreme restraints as the struggle meters go further into the negative 
+(chains attached to the walls, more chains, hoods, etc.), but I lack art and the necessary skill with RPG Maker for now.
+
+Known issues:
+- When legs are freed, sometimes bound legs are shown. (Resolved)
+- Various graphical errors with face animations/struggle animations
+- Guards do not function properly. 
+- Most of the Guards in the desert challenge don't teleport the player to the correct place.
+- Blindfold sometimes does not darken correctly while moving.
+- Text boxes are in the wrong place. (Issue found)
+
+I mostly playtested this with Athena in mind, so other characters may not have as polished an experienced or as many special interactions. 
+(I didn't implement any graphics for chains on Evelyn or Carol, for example)
+
+All these changes are just experimental, and not really balanced or fair. Feel free to suggest changes because I was mostly just messing around while making this.
+
+Thanks for trying it out!
+
+-David

@@ -1818,6 +1818,271 @@
       ],
       "x": 11,
       "y": 9
+    },
+    "6": {
+      "typeName": "RPG::Event",
+      "id": 6,
+      "name": "EV006",
+      "pages": [
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 1,
+            "variable_valid": false,
+            "variable_value": 0
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "MaleVillager",
+            "direction": 6,
+            "opacity": 255,
+            "pattern": 2,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "You're coming with me, babe."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 301,
+              "indent": 0,
+              "parameters": [
+                108,
+                false,
+                false
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                317,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 313,
+              "indent": 1,
+              "parameters": [
+                0,
+                1,
+                22
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 117,
+              "indent": 1,
+              "parameters": [
+                92
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 202,
+              "indent": 1,
+              "parameters": [
+                0,
+                0,
+                44,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 1,
+              "parameters": [
+                51,
+                51,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 1,
+              "parameters": [
+                327,
+                329,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 1,
+              "parameters": [
+                10
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 250,
+              "indent": 1,
+              "parameters": [
+                {
+                  "typeName": "RPG::AudioFile",
+                  "name": "shortmmmph5",
+                  "pitch": 100,
+                  "volume": 100
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "\\e[0]Mmmhmphf!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "\\e[31]Quiet, you. We didn't gag you because we "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "wanted to hear your voice."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                50,
+                "Custom fade",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 232,
+              "indent": 1,
+              "parameters": [
+                50,
+                10,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 1,
+              "parameters": [
+                20
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 201,
+              "indent": 1,
+              "parameters": [
+                0,
+                538,
+                5,
+                6,
+                2,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        }
+      ],
+      "x": 11,
+      "y": 4
     }
   },
   "height": 15,
