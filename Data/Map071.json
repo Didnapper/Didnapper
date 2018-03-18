@@ -1,6 +1,6 @@
 {
   "typeName": "RPG::Map",
-  "autoplay_bgm": false,
+  "autoplay_bgm": true,
   "autoplay_bgs": false,
   "bgm": {
     "typeName": "RPG::AudioFile",
@@ -7661,46 +7661,24 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                4,
-                2,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                552,
-                552,
-                0,
-                0,
-                20
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
               "code": 129,
               "indent": 0,
               "parameters": [
                 2,
                 1,
                 1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                552,
+                552,
+                0,
+                0,
+                20
               ]
             },
             {

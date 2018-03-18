@@ -64,10 +64,11 @@ SharpFFFFFF
 Kendrian
 Mwatiki
 
--Graphics Cleaning-
+-Graphics Cleaning and Shading-
 Tsukemen
 Kendrian
 Animluster
+D3
 
 -Map Design-
 Kendrian
