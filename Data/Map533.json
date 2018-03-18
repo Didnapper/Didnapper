@@ -3735,8 +3735,8 @@
                 100,
                 1,
                 2,
-                70,
-                90
+                0,
+                0
               ]
             },
             {
@@ -3748,7 +3748,7 @@
                 100,
                 4,
                 0,
-                2
+                1
               ]
             },
             {
@@ -3772,8 +3772,8 @@
                 99,
                 1,
                 2,
-                45,
-                65
+                1,
+                2
               ]
             },
             {
@@ -3809,8 +3809,8 @@
                 98,
                 1,
                 2,
-                20,
-                40
+                0,
+                5
               ]
             },
             {
@@ -3822,7 +3822,7 @@
                 98,
                 4,
                 0,
-                2
+                1
               ]
             },
             {
@@ -3842,7 +3842,7 @@
                 472,
                 0,
                 0,
-                2
+                1
               ]
             },
             {
@@ -3854,7 +3854,7 @@
                 473,
                 0,
                 0,
-                2
+                1
               ]
             },
             {
@@ -3866,7 +3866,7 @@
                 97,
                 0,
                 0,
-                3
+                1
               ]
             },
             {
@@ -3878,7 +3878,7 @@
                 25,
                 0,
                 0,
-                12
+                20
               ]
             },
             {
@@ -8046,6 +8046,70 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 3,
+              "parameters": [
+                "Blindfold mod start"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                0,
+                146,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 4,
+              "parameters": [
+                "I'll take off the blindfold too ..."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 4,
+              "parameters": [
+                146,
+                146,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 117,
+              "indent": 3,
+              "parameters": [
+                92
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 3,
+              "parameters": [
+                "Blindfold mod stop"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 209,
               "indent": 3,
               "parameters": [
@@ -8359,9 +8423,9 @@
               "parameters": [
                 {
                   "typeName": "RPG::AudioFile",
-                  "name": "angrymmmph2",
-                  "pitch": 100,
-                  "volume": 100
+                  "name": "Test 3",
+                  "pitch": 120,
+                  "volume": 80
                 }
               ]
             },
@@ -8746,6 +8810,32 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 4,
+              "parameters": [
+                "Blindfold mod start"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 4,
+              "parameters": [
+                146,
+                146,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 4,
+              "parameters": [
+                "Blindfold mod stop"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 117,
               "indent": 4,
               "parameters": [
@@ -8759,9 +8849,9 @@
               "parameters": [
                 {
                   "typeName": "RPG::AudioFile",
-                  "name": "shortmmmph1",
-                  "pitch": 100,
-                  "volume": 80
+                  "name": "Test 8",
+                  "pitch": 130,
+                  "volume": 90
                 }
               ]
             },
@@ -8808,6 +8898,19 @@
               "indent": 4,
               "parameters": [
                 "\\e[7]That's better!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 250,
+              "indent": 4,
+              "parameters": [
+                {
+                  "typeName": "RPG::AudioFile",
+                  "name": "Test 3",
+                  "pitch": 130,
+                  "volume": 90
+                }
               ]
             },
             {

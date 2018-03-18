@@ -14283,8 +14283,8 @@
                 100,
                 1,
                 2,
-                70,
-                80
+                90,
+                100
               ]
             },
             {
@@ -14357,8 +14357,8 @@
                 98,
                 1,
                 2,
-                20,
-                30
+                50,
+                60
               ]
             },
             {
@@ -14396,11 +14396,31 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                251
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 122,
               "indent": 0,
               "parameters": [
                 472,
                 472,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                473,
+                473,
                 0,
                 0,
                 3
@@ -14411,23 +14431,11 @@
               "code": 122,
               "indent": 0,
               "parameters": [
-                473,
-                473,
-                0,
-                0,
-                5
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 0,
-              "parameters": [
                 474,
                 474,
                 0,
                 0,
-                4
+                3
               ]
             },
             {
@@ -14451,7 +14459,7 @@
                 97,
                 0,
                 0,
-                3
+                1
               ]
             },
             {
@@ -14620,7 +14628,7 @@
               "code": 101,
               "indent": 2,
               "parameters": [
-                "\\e[23]Don't try anything stupid now!"
+                "\\e[23]You're going to be here for a long time!"
               ]
             },
             {

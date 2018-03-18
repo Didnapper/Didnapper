@@ -6,25 +6,25 @@ class PrivateCellDamselSuki < PrivateCellDamsel
     mood = getMood
 		tickle = ticklelevel?
 		if tickle >= 1 #tickle
-			Audio.se_play(["Audio/SE/gagtalk3.mp3","Audio/SE/Laughing mmmmhhhh.mp3"][rand(2)], 100, 100)
+			Audio.se_play(["Audio/SE/gagtalk3.mp3","Audio/SE/Test.mp3"][rand(2)], 100, 100)
 		elsif @action == 'speak'
-      Audio.se_play("Audio/SE/Laughing mmmmhhhh.mp3", 100, 100)
+      Audio.se_play("Audio/SE/Test.mp3", 100, 100)
     elsif @action == 'ungag'
-      Audio.se_play("Audio/SE/Light mmphf 7", 100, 100)
+      Audio.se_play("Audio/SE/Test", 100, 100)
     elsif @action == 'clothgag'
-      Audio.se_play(["Audio/SE/Light mmphf 7","Audio/SE/Light mmphf 8"][rand(2)], 100, 100)
+      Audio.se_play(["Audio/SE/Test","Audio/SE/Test"][rand(2)], 100, 100)
     elsif mood[0] == 'fear'
-			Audio.se_play("Audio/SE/gagtalk4.mp3", 100, 100)
+			Audio.se_play("Audio/SE/Test.mp3", 100, 100)
 		elsif mood[0] == 'anger'
-			Audio.se_play("Audio/SE/gagtalk4.mp3", 100, 100)
+			Audio.se_play("Audio/SE/Test.mp3", 100, 100)
 		elsif mood[0] == 'happiness'
-			Audio.se_play("Audio/SE/Laughing mmmmhhhh.mp3", 100, 100)
+			Audio.se_play("Audio/SE/Test", 100, 100)
 		elsif mood[0] == 'sadness'
-			Audio.se_play("Audio/SE/mediummmmph3", 100, 100)
+			Audio.se_play("Audio/SE/Test 2", 100, 100)
 		elsif mood[0] == 'shyness'
-			Audio.se_play("Audio/SE/Light mmphf 8", 100, 100)
+			Audio.se_play("Audio/SE/Test", 100, 100)
     else #default
-      Audio.se_play("Audio/SE/mediummmmph3", 100, 100)
+      Audio.se_play("Audio/SE/Test", 100, 100)
 		end
 	end
 	def initialize

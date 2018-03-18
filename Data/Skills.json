@@ -5303,7 +5303,7 @@
     "animation1_id": 2,
     "animation2_id": 50,
     "atk_f": 0,
-    "common_event_id": 35,
+    "common_event_id": 34,
     "description": "Enemy conjures ropes which tie up all weakened opponents.",
     "dex_f": 0,
     "element_set": [],
@@ -5706,7 +5706,7 @@
       47
     ],
     "power": 30,
-    "scope": 1,
+    "scope": 2,
     "sp_cost": 70,
     "str_f": 0,
     "variance": 15
@@ -6367,18 +6367,18 @@
   {
     "typeName": "RPG::Skill",
     "agi_f": 0,
-    "animation1_id": 0,
-    "animation2_id": 0,
-    "atk_f": 0,
-    "common_event_id": 0,
-    "description": "",
+    "animation1_id": 1,
+    "animation2_id": 146,
+    "atk_f": 1,
+    "common_event_id": 256,
+    "description": "Ties Cherisa up, if she is weak",
     "dex_f": 0,
     "element_set": [],
     "eva_f": 0,
     "hit": 100,
-    "icon_name": "",
+    "icon_name": "Rope",
     "id": 182,
-    "int_f": 100,
+    "int_f": 0,
     "mdef_f": 100,
     "menu_se": {
       "typeName": "RPG::AudioFile",
@@ -6387,7 +6387,7 @@
       "volume": 80
     },
     "minus_state_set": [],
-    "name": "",
+    "name": "Subdue",
     "occasion": 1,
     "pdef_f": 0,
     "plus_state_set": [],
@@ -6395,7 +6395,7 @@
     "scope": 0,
     "sp_cost": 0,
     "str_f": 0,
-    "variance": 15
+    "variance": 0
   },
   {
     "typeName": "RPG::Skill",

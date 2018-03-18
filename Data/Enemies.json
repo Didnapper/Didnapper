@@ -15204,6 +15204,18 @@
         "basic": 0,
         "condition_hp": 100,
         "condition_level": 1,
+        "condition_switch_id": 599,
+        "condition_turn_a": 0,
+        "condition_turn_b": 1,
+        "kind": 1,
+        "rating": 7,
+        "skill_id": 182
+      },
+      {
+        "typeName": "RPG::Enemy::Action",
+        "basic": 0,
+        "condition_hp": 100,
+        "condition_level": 1,
         "condition_switch_id": 147,
         "condition_turn_a": 0,
         "condition_turn_b": 1,
@@ -15404,7 +15416,7 @@
       "ysize": 1,
       "zsize": 1
     },
-    "str": 25,
+    "str": 100,
     "treasure_prob": 100,
     "weapon_id": 0
   },
