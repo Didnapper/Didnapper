@@ -2265,7 +2265,7 @@
       0,
       0,
       0,
-      734,
+      0,
       386,
       717,
       0,
@@ -28286,11 +28286,53 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 101,
+              "code": 111,
               "indent": 2,
+              "parameters": [
+                4,
+                4,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "\\e[12]Guards! It's those girls again!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 411,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
               "parameters": [
                 "\\e[12]Guards! It's that girl again!"
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 2,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -28447,8 +28489,46 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 101,
+              "code": 111,
               "indent": 2,
+              "parameters": [
+                4,
+                4,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "\\e[10]Didn't we already take care of them?"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "\\e[12]Obviously not! Get them!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 411,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
               "parameters": [
                 "\\e[10]Didn't we already take care of her?"
               ]
@@ -28456,10 +28536,22 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 101,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 "\\e[12]Obviously not! Get her!"
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 2,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -28516,7 +28608,7 @@
               "code": 101,
               "indent": 1,
               "parameters": [
-                "\\e[12]Hey! Those girls looks suspicious, right?"
+                "\\e[12]Hey! Those girls look suspicious, right?"
               ]
             },
             {
@@ -28533,11 +28625,53 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 101,
+              "code": 111,
               "indent": 1,
+              "parameters": [
+                4,
+                4,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "\\e[12]Hey! Those girls look suspicious, right?"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
               "parameters": [
                 "\\e[12]Hey! That girl looks suspicious, right?"
               ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 1,
+              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -31465,8 +31599,8 @@
           "always_on_top": false,
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
-            "self_switch_ch": "A",
-            "self_switch_valid": false,
+            "self_switch_ch": "D",
+            "self_switch_valid": true,
             "switch1_id": 1,
             "switch1_valid": false,
             "switch2_id": 1,
@@ -32001,6 +32135,77 @@
       ],
       "x": 25,
       "y": 20
+    },
+    "52": {
+      "typeName": "RPG::Event",
+      "id": 52,
+      "name": "EV052",
+      "pages": [
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 1,
+            "variable_valid": false,
+            "variable_value": 0
+          },
+          "direction_fix": true,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "186-Bulletin01",
+            "direction": 6,
+            "opacity": 255,
+            "pattern": 2,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                142
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": false
+        }
+      ],
+      "x": 28,
+      "y": 34
     },
     "6": {
       "typeName": "RPG::Event",

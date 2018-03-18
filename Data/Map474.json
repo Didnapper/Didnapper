@@ -9043,69 +9043,6 @@
       "x": 1,
       "y": 2
     },
-    "2": {
-      "typeName": "RPG::Event",
-      "id": 2,
-      "name": "Torch",
-      "pages": [
-        {
-          "typeName": "RPG::Event::Page",
-          "always_on_top": false,
-          "condition": {
-            "typeName": "RPG::Event::Page::Condition",
-            "self_switch_ch": "A",
-            "self_switch_valid": false,
-            "switch1_id": 1,
-            "switch1_valid": false,
-            "switch2_id": 1,
-            "switch2_valid": false,
-            "variable_id": 1,
-            "variable_valid": false,
-            "variable_value": 0
-          },
-          "direction_fix": false,
-          "graphic": {
-            "typeName": "RPG::Event::Page::Graphic",
-            "blend_type": 0,
-            "character_hue": 0,
-            "character_name": "184-Light01",
-            "direction": 2,
-            "opacity": 255,
-            "pattern": 0,
-            "tile_id": 0
-          },
-          "list": [
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "move_frequency": 5,
-          "move_route": {
-            "typeName": "RPG::MoveRoute",
-            "list": [
-              {
-                "typeName": "RPG::MoveCommand",
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false
-          },
-          "move_speed": 3,
-          "move_type": 0,
-          "step_anime": true,
-          "through": false,
-          "trigger": 0,
-          "walk_anime": true
-        }
-      ],
-      "x": 22,
-      "y": 3
-    },
     "20": {
       "typeName": "RPG::Event",
       "id": 20,
@@ -15232,344 +15169,16 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 111,
+              "code": 355,
               "indent": 0,
               "parameters": [
-                1,
-                551,
-                0,
-                30,
-                5
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 1,
-              "parameters": [
-                1,
-                552,
-                0,
-                30,
-                5
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 2,
-              "parameters": [
-                4,
-                1,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 3,
-              "parameters": [
-                4,
-                2,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 411,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 108,
-              "indent": 4,
-              "parameters": [
-                "If Carol or Suki aren't available for escape"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 119,
-              "indent": 4,
-              "parameters": [
-                "PartySwap"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 0,
-              "parameters": [
-                24,
-                24,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 118,
-              "indent": 0,
-              "parameters": [
-                "AttemptEscape"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                4,
-                1,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 118,
-              "indent": 1,
-              "parameters": [
-                "SukiCaptured"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 1,
-              "parameters": [
-                24,
-                24,
-                1,
-                0,
-                1
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 1,
-              "parameters": [
-                1,
-                551,
-                0,
-                30,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 119,
-              "indent": 2,
-              "parameters": [
-                "SukiCaptured"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                4,
-                2,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 119,
-              "indent": 1,
-              "parameters": [
-                "CarolCaptured"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 1,
-              "parameters": [
-                1,
-                552,
-                0,
-                30,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 118,
-              "indent": 2,
-              "parameters": [
-                "CarolCaptured"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 2,
-              "parameters": [
-                24,
-                24,
-                1,
-                0,
-                1
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                24,
-                0,
-                2,
-                1
+                "$game_system.message_event = -1"
               ]
             },
             {
               "typeName": "RPG::EventCommand",
               "code": 101,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 "Escape as who?"
               ]
@@ -15577,11 +15186,13 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 102,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 [
                   "\\n[1]",
-                  "\\n[2]"
+                  "\\n[2]",
+                  "\\n[6]",
+                  "\\n[7]"
                 ],
                 0
               ]
@@ -15589,7 +15200,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 402,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 0,
                 "\\n[1]"
@@ -15597,56 +15208,22 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 129,
-              "indent": 2,
+              "code": 119,
+              "indent": 1,
               "parameters": [
-                1,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 129,
-              "indent": 2,
-              "parameters": [
-                2,
-                1,
-                1
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 313,
-              "indent": 2,
-              "parameters": [
-                1,
-                0,
-                22
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 2,
-              "parameters": [
-                552,
-                552,
-                0,
-                0,
-                30
+                "SkipSuki"
               ]
             },
             {
               "typeName": "RPG::EventCommand",
               "code": 0,
-              "indent": 2,
+              "indent": 1,
               "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
               "code": 402,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
                 1,
                 "\\n[2]"
@@ -15655,7 +15232,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 129,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
                 2,
                 0,
@@ -15664,18 +15241,8 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 129,
-              "indent": 2,
-              "parameters": [
-                1,
-                1,
-                1
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
               "code": 313,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
                 2,
                 0,
@@ -15684,8 +15251,100 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "\\n[6]"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 129,
+              "indent": 1,
+              "parameters": [
+                6,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 313,
+              "indent": 1,
+              "parameters": [
+                6,
+                0,
+                22
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                3,
+                "\\n[7]"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 129,
+              "indent": 1,
+              "parameters": [
+                7,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 313,
+              "indent": 1,
+              "parameters": [
+                7,
+                0,
+                22
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 129,
+              "indent": 0,
+              "parameters": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 122,
-              "indent": 2,
+              "indent": 0,
               "parameters": [
                 551,
                 551,
@@ -15696,147 +15355,23 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 117,
-              "indent": 1,
-              "parameters": [
-                7
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 119,
-              "indent": 1,
-              "parameters": [
-                "SkipChoice"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
+              "code": 118,
               "indent": 0,
               "parameters": [
-                1,
-                551,
-                0,
-                30,
-                0
+                "SkipSuki"
               ]
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 117,
-              "indent": 1,
+              "code": 122,
+              "indent": 0,
               "parameters": [
-                24
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 129,
-              "indent": 1,
-              "parameters": [
+                10,
+                10,
                 1,
                 0,
-                0
+                1
               ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 313,
-              "indent": 1,
-              "parameters": [
-                1,
-                0,
-                22
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 111,
-              "indent": 0,
-              "parameters": [
-                1,
-                552,
-                0,
-                30,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 117,
-              "indent": 1,
-              "parameters": [
-                24
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 129,
-              "indent": 1,
-              "parameters": [
-                2,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 313,
-              "indent": 1,
-              "parameters": [
-                2,
-                0,
-                22
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 412,
-              "indent": 0,
-              "parameters": []
             },
             {
               "typeName": "RPG::EventCommand",
@@ -25673,69 +25208,6 @@
       "x": 4,
       "y": 6
     },
-    "3": {
-      "typeName": "RPG::Event",
-      "id": 3,
-      "name": "Torch",
-      "pages": [
-        {
-          "typeName": "RPG::Event::Page",
-          "always_on_top": false,
-          "condition": {
-            "typeName": "RPG::Event::Page::Condition",
-            "self_switch_ch": "A",
-            "self_switch_valid": false,
-            "switch1_id": 1,
-            "switch1_valid": false,
-            "switch2_id": 1,
-            "switch2_valid": false,
-            "variable_id": 1,
-            "variable_valid": false,
-            "variable_value": 0
-          },
-          "direction_fix": false,
-          "graphic": {
-            "typeName": "RPG::Event::Page::Graphic",
-            "blend_type": 0,
-            "character_hue": 0,
-            "character_name": "184-Light01",
-            "direction": 2,
-            "opacity": 255,
-            "pattern": 0,
-            "tile_id": 0
-          },
-          "list": [
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
-          "move_frequency": 5,
-          "move_route": {
-            "typeName": "RPG::MoveRoute",
-            "list": [
-              {
-                "typeName": "RPG::MoveCommand",
-                "code": 0,
-                "parameters": []
-              }
-            ],
-            "repeat": true,
-            "skippable": false
-          },
-          "move_speed": 3,
-          "move_type": 0,
-          "step_anime": true,
-          "through": false,
-          "trigger": 0,
-          "walk_anime": true
-        }
-      ],
-      "x": 18,
-      "y": 3
-    },
     "30": {
       "typeName": "RPG::Event",
       "id": 30,
@@ -30378,6 +29850,113 @@
           "through": false,
           "trigger": 0,
           "walk_anime": true
+        },
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 79,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 395,
+            "variable_valid": true,
+            "variable_value": 1
+          },
+          "direction_fix": true,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "173-Door04",
+            "direction": 2,
+            "opacity": 255,
+            "pattern": 2,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 209,
+              "indent": 0,
+              "parameters": [
+                -1,
+                {
+                  "typeName": "RPG::MoveRoute",
+                  "list": [
+                    {
+                      "typeName": "RPG::MoveCommand",
+                      "code": 19,
+                      "parameters": []
+                    },
+                    {
+                      "typeName": "RPG::MoveCommand",
+                      "code": 0,
+                      "parameters": []
+                    }
+                  ],
+                  "repeat": false,
+                  "skippable": false
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "typeName": "RPG::MoveCommand",
+                  "code": 19,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\e[0]\\thI shouldn't leave anyone behind..."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "$game_system.comic_style = TALK1"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": false
         },
         {
           "typeName": "RPG::Event::Page",

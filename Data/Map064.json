@@ -1009,7 +1009,7 @@
       184,
       182,
       737,
-      1920,
+      1667,
       0,
       0,
       4738,
@@ -7309,6 +7309,36 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                70,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 119,
+              "indent": 1,
+              "parameters": [
+                "Skip2"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 106,
               "indent": 0,
               "parameters": [
@@ -7866,7 +7896,7 @@
                       "typeName": "RPG::MoveCommand",
                       "code": 41,
                       "parameters": [
-                        "006-Fighter06",
+                        "Layla",
                         0,
                         8,
                         0
@@ -7974,7 +8004,7 @@
                   "typeName": "RPG::MoveCommand",
                   "code": 41,
                   "parameters": [
-                    "006-Fighter06",
+                    "Layla",
                     0,
                     8,
                     0
@@ -10663,7 +10693,7 @@
                   "typeName": "RPG::AudioFile",
                   "name": "Tension",
                   "pitch": 100,
-                  "volume": 100
+                  "volume": 90
                 }
               ]
             },
@@ -14487,7 +14517,7 @@
                   "typeName": "RPG::AudioFile",
                   "name": "Tension",
                   "pitch": 100,
-                  "volume": 100
+                  "volume": 90
                 }
               ]
             },
@@ -14979,7 +15009,7 @@
               "code": 101,
               "indent": 0,
               "parameters": [
-                "Neither of you are going anywhere!"
+                "Neither of you is going anywhere!"
               ]
             },
             {
@@ -17742,6 +17772,69 @@
       ],
       "x": 24,
       "y": 8
+    },
+    "3": {
+      "typeName": "RPG::Event",
+      "id": 3,
+      "name": "Player blocker",
+      "pages": [
+        {
+          "typeName": "RPG::Event::Page",
+          "always_on_top": false,
+          "condition": {
+            "typeName": "RPG::Event::Page::Condition",
+            "self_switch_ch": "A",
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch1_valid": false,
+            "switch2_id": 1,
+            "switch2_valid": false,
+            "variable_id": 1,
+            "variable_valid": false,
+            "variable_value": 0
+          },
+          "direction_fix": false,
+          "graphic": {
+            "typeName": "RPG::Event::Page::Graphic",
+            "blend_type": 0,
+            "character_hue": 0,
+            "character_name": "065-Beast03",
+            "direction": 2,
+            "opacity": 0,
+            "pattern": 0,
+            "tile_id": 0
+          },
+          "list": [
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "move_frequency": 3,
+          "move_route": {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false
+          },
+          "move_speed": 3,
+          "move_type": 0,
+          "step_anime": false,
+          "through": false,
+          "trigger": 0,
+          "walk_anime": true
+        }
+      ],
+      "x": 7,
+      "y": 12
     },
     "36": {
       "typeName": "RPG::Event",

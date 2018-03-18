@@ -1810,12 +1810,20 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Browse items?"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "Shop",
-                  "Nevermind"
+                  "Yes",
+                  "No"
                 ],
                 2
               ]
@@ -1826,70 +1834,7 @@
               "indent": 0,
               "parameters": [
                 0,
-                "Shop"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 302,
-              "indent": 1,
-              "parameters": [
-                0,
-                34
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 605,
-              "indent": 1,
-              "parameters": [
-                0,
-                37
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 605,
-              "indent": 1,
-              "parameters": [
-                0,
-                50
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 605,
-              "indent": 1,
-              "parameters": [
-                0,
-                51
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 605,
-              "indent": 1,
-              "parameters": [
-                0,
-                52
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 605,
-              "indent": 1,
-              "parameters": [
-                0,
-                58
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 605,
-              "indent": 1,
-              "parameters": [
-                0,
-                59
+                "Yes"
               ]
             },
             {
@@ -1904,8 +1849,81 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 101,
+              "code": 302,
               "indent": 2,
+              "parameters": [
+                0,
+                34
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 605,
+              "indent": 2,
+              "parameters": [
+                0,
+                37
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 605,
+              "indent": 2,
+              "parameters": [
+                0,
+                50
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 605,
+              "indent": 2,
+              "parameters": [
+                0,
+                51
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 605,
+              "indent": 2,
+              "parameters": [
+                0,
+                52
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 605,
+              "indent": 2,
+              "parameters": [
+                0,
+                58
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 605,
+              "indent": 2,
+              "parameters": [
+                0,
+                59
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                7,
+                2,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
               "parameters": [
                 "\\e[1]There's a 2 gold fee for looking through our "
               ]
@@ -1913,7 +1931,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 401,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 "wares. Please have another look later!"
               ]
@@ -1921,7 +1939,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 125,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 1,
                 0,
@@ -1931,7 +1949,7 @@
             {
               "typeName": "RPG::EventCommand",
               "code": 250,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 {
                   "typeName": "RPG::AudioFile",
@@ -1939,6 +1957,46 @@
                   "pitch": 100,
                   "volume": 80
                 }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "\\e[1]\\gYou can't afford anything I have to sell here. "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Please come back when you do."
               ]
             },
             {
@@ -1965,7 +2023,7 @@
               "indent": 0,
               "parameters": [
                 1,
-                "Nevermind"
+                "No"
               ]
             },
             {
@@ -3056,7 +3114,7 @@
               "code": 101,
               "indent": 1,
               "parameters": [
-                "Make sure you help the teacher upstairs!"
+                "Make sure you help the skill teacher upstairs!"
               ]
             },
             {
@@ -4881,10 +4939,11 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 123,
+              "code": 121,
               "indent": 1,
               "parameters": [
-                "B",
+                68,
+                68,
                 0
               ]
             },
@@ -4918,10 +4977,11 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 123,
+              "code": 121,
               "indent": 0,
               "parameters": [
-                "A",
+                67,
+                67,
                 0
               ]
             },
@@ -4966,14 +5026,14 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 51,
             "switch1_valid": true,
-            "switch2_id": 1,
-            "switch2_valid": false,
-            "variable_id": 1,
+            "switch2_id": 67,
+            "switch2_valid": true,
+            "variable_id": 630,
             "variable_valid": false,
-            "variable_value": 0
+            "variable_value": 2
           },
           "direction_fix": false,
           "graphic": {
@@ -5173,14 +5233,14 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "B",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 51,
             "switch1_valid": true,
-            "switch2_id": 1,
-            "switch2_valid": false,
-            "variable_id": 1,
+            "switch2_id": 68,
+            "switch2_valid": true,
+            "variable_id": 630,
             "variable_valid": false,
-            "variable_value": 0
+            "variable_value": 4
           },
           "direction_fix": false,
           "graphic": {
@@ -5617,13 +5677,13 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 342,
             "switch1_valid": true,
             "switch2_id": 1,
             "switch2_valid": false,
             "variable_id": 630,
-            "variable_valid": false,
+            "variable_valid": true,
             "variable_value": 3
           },
           "direction_fix": false,
@@ -9261,28 +9321,6 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 122,
-              "indent": 0,
-              "parameters": [
-                630,
-                630,
-                0,
-                0,
-                0
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 121,
-              "indent": 0,
-              "parameters": [
-                51,
-                51,
-                1
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
               "code": 250,
               "indent": 0,
               "parameters": [
@@ -9555,14 +9593,20 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 122,
+              "code": 121,
               "indent": 0,
               "parameters": [
-                630,
-                630,
-                0,
-                0,
-                0
+                51,
+                51,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "Event-related switches"
               ]
             },
             {
@@ -9570,8 +9614,8 @@
               "code": 121,
               "indent": 0,
               "parameters": [
-                51,
-                51,
+                65,
+                68,
                 1
               ]
             },

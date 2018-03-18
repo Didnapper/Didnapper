@@ -6453,12 +6453,28 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "$game_system.message_event = -1"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Browse seafood?"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "Yes please",
-                  "No thanks"
+                  "Yes",
+                  "No"
                 ],
                 2
               ]
@@ -6469,15 +6485,7 @@
               "indent": 0,
               "parameters": [
                 0,
-                "Yes please"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 355,
-              "indent": 1,
-              "parameters": [
-                "$game_system.message_event = -1"
+                "Yes"
               ]
             },
             {
@@ -6519,15 +6527,7 @@
               "indent": 0,
               "parameters": [
                 1,
-                "No thanks"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 355,
-              "indent": 1,
-              "parameters": [
-                "$game_system.message_event = -1"
+                "No"
               ]
             },
             {

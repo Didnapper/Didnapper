@@ -3738,7 +3738,7 @@
               "code": 101,
               "indent": 1,
               "parameters": [
-                "You recieved 100 gold."
+                "You received 100 gold."
               ]
             },
             {
@@ -4205,7 +4205,7 @@
                     }
                   ],
                   "repeat": false,
-                  "skippable": false
+                  "skippable": true
                 }
               ]
             },
@@ -4362,6 +4362,14 @@
                   "code": 4,
                   "parameters": []
                 }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 2,
+              "parameters": [
+                15
               ]
             },
             {
@@ -4562,7 +4570,7 @@
                     }
                   ],
                   "repeat": false,
-                  "skippable": false
+                  "skippable": true
                 }
               ]
             },
@@ -4736,6 +4744,14 @@
                   "code": 19,
                   "parameters": []
                 }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 106,
+              "indent": 1,
+              "parameters": [
+                15
               ]
             },
             {

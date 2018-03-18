@@ -8889,7 +8889,7 @@
               "code": 101,
               "indent": 0,
               "parameters": [
-                "Pay the fee?"
+                "\\gPay the fee?"
               ]
             },
             {
@@ -9453,6 +9453,28 @@
               "code": 121,
               "indent": 2,
               "parameters": [
+                65,
+                68,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                630,
+                630,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 2,
+              "parameters": [
                 51,
                 51,
                 0
@@ -9566,7 +9588,7 @@
               "code": 101,
               "indent": 0,
               "parameters": [
-                "Pay the fee?"
+                "\\gPay the fee?"
               ]
             },
             {
@@ -9960,14 +9982,14 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 342,
             "switch1_valid": true,
             "switch2_id": 1,
             "switch2_valid": false,
-            "variable_id": 1,
-            "variable_valid": false,
-            "variable_value": 0
+            "variable_id": 630,
+            "variable_valid": true,
+            "variable_value": 99
           },
           "direction_fix": false,
           "graphic": {
@@ -10011,6 +10033,22 @@
               "indent": 0,
               "parameters": [
                 "\\e[31]The entrance fee is 10 gold. Pay up or leave!"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "$game_system.message_event = -1"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\gPay the fee?"
               ]
             },
             {
@@ -10248,13 +10286,13 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": false,
+            "self_switch_valid": true,
             "switch1_id": 1,
             "switch1_valid": false,
             "switch2_id": 1,
             "switch2_valid": false,
             "variable_id": 630,
-            "variable_valid": true,
+            "variable_valid": false,
             "variable_value": 99
           },
           "direction_fix": false,
@@ -10275,7 +10313,7 @@
               "indent": 0,
               "parameters": [
                 "A",
-                0
+                1
               ]
             },
             {
@@ -10287,7 +10325,7 @@
                 630,
                 0,
                 0,
-                0
+                99
               ]
             },
             {
@@ -10497,7 +10535,7 @@
               "code": 101,
               "indent": 0,
               "parameters": [
-                "Pay the fee?"
+                "\\gPay the fee?"
               ]
             },
             {
@@ -11257,6 +11295,28 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                630,
+                630,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 121,
+              "indent": 2,
+              "parameters": [
+                65,
+                68,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 201,
               "indent": 2,
               "parameters": [
@@ -11357,7 +11417,7 @@
               "code": 101,
               "indent": 0,
               "parameters": [
-                "Pay the fee?"
+                "\\gPay the fee?"
               ]
             },
             {
@@ -11862,14 +11922,14 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 342,
             "switch1_valid": true,
             "switch2_id": 1,
             "switch2_valid": false,
-            "variable_id": 1,
-            "variable_valid": false,
-            "variable_value": 0
+            "variable_id": 630,
+            "variable_valid": true,
+            "variable_value": 99
           },
           "direction_fix": false,
           "graphic": {
@@ -12003,7 +12063,7 @@
               "code": 101,
               "indent": 0,
               "parameters": [
-                "\\e[31]The fee for entering this house is 10 gold. Pay "
+                "The fee for entering this house is 10 gold. Pay up or "
               ]
             },
             {
@@ -12011,7 +12071,7 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "up or leave!"
+                "leave!"
               ]
             },
             {
@@ -12027,7 +12087,7 @@
               "code": 101,
               "indent": 0,
               "parameters": [
-                "Pay the fee?"
+                "\\gPay the fee?"
               ]
             },
             {
@@ -12376,13 +12436,13 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": false,
+            "self_switch_valid": true,
             "switch1_id": 342,
             "switch1_valid": true,
             "switch2_id": 1,
             "switch2_valid": false,
             "variable_id": 630,
-            "variable_valid": true,
+            "variable_valid": false,
             "variable_value": 99
           },
           "direction_fix": false,
@@ -12403,7 +12463,7 @@
               "indent": 0,
               "parameters": [
                 "A",
-                0
+                1
               ]
             },
             {
@@ -12415,7 +12475,7 @@
                 630,
                 0,
                 0,
-                0
+                99
               ]
             },
             {

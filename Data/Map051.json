@@ -5337,7 +5337,7 @@
           "move_type": 0,
           "step_anime": false,
           "through": false,
-          "trigger": 0,
+          "trigger": 3,
           "walk_anime": true
         },
         {
@@ -6086,6 +6086,23 @@
               "parameters": [
                 26,
                 "FSGuildMasterBlack",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                150,
+                0
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 232,
+              "indent": 0,
+              "parameters": [
+                25,
+                4,
                 0,
                 0,
                 0,

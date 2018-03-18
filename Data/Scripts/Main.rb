@@ -20,7 +20,7 @@ begin
   $scene = Scene_Movie.close_scene #closes active movie window
   $scene = Scene_Movie.new("IntroO")
 =end
-Graphics.play_movie( "Movies/IntroP.wmv" )
+Graphics.play_movie( "Movies/IntroR.wmv" )
   $scene = Scene_Title.new
   # Call main method as long as $scene is effective
   while $scene != nil

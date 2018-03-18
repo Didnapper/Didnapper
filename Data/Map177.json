@@ -1124,12 +1124,20 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Browse skills?"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "Browse skills",
-                  "Nevermind"
+                  "Yes",
+                  "No"
                 ],
                 2
               ]
@@ -1140,7 +1148,7 @@
               "indent": 0,
               "parameters": [
                 0,
-                "Browse skills"
+                "Yes"
               ]
             },
             {
@@ -1227,16 +1235,26 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 101,
+              "code": 106,
               "indent": 2,
               "parameters": [
-                "\\e[2]There's a 3 gold fee for wasting my time."
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                7,
+                3,
+                0
               ]
             },
             {
               "typeName": "RPG::EventCommand",
               "code": 125,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 1,
                 0,
@@ -1245,8 +1263,16 @@
             },
             {
               "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 3,
+              "parameters": [
+                "\\e[2]There's a 3 gold fee for wasting my time."
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
               "code": 250,
-              "indent": 2,
+              "indent": 3,
               "parameters": [
                 {
                   "typeName": "RPG::AudioFile",
@@ -1254,6 +1280,54 @@
                   "pitch": 100,
                   "volume": 80
                 }
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 411,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "\\e[2]\\gI'm not interested in customers who can't "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "afford anything. Come back when you have some "
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "gold to spend."
               ]
             },
             {
@@ -1280,7 +1354,7 @@
               "indent": 0,
               "parameters": [
                 1,
-                "Nevermind"
+                "No"
               ]
             },
             {
@@ -3363,10 +3437,11 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 123,
+              "code": 121,
               "indent": 1,
               "parameters": [
-                "B",
+                66,
+                66,
                 0
               ]
             },
@@ -3400,10 +3475,11 @@
             },
             {
               "typeName": "RPG::EventCommand",
-              "code": 123,
+              "code": 121,
               "indent": 0,
               "parameters": [
-                "A",
+                65,
+                65,
                 0
               ]
             },
@@ -3448,11 +3524,11 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 51,
             "switch1_valid": true,
-            "switch2_id": 1,
-            "switch2_valid": false,
+            "switch2_id": 65,
+            "switch2_valid": true,
             "variable_id": 1,
             "variable_valid": false,
             "variable_value": 0
@@ -3663,11 +3739,11 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "B",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 51,
             "switch1_valid": true,
-            "switch2_id": 1,
-            "switch2_valid": false,
+            "switch2_id": 66,
+            "switch2_valid": true,
             "variable_id": 1,
             "variable_valid": false,
             "variable_value": 0
@@ -4671,13 +4747,13 @@
           "condition": {
             "typeName": "RPG::Event::Page::Condition",
             "self_switch_ch": "A",
-            "self_switch_valid": true,
+            "self_switch_valid": false,
             "switch1_id": 342,
             "switch1_valid": true,
             "switch2_id": 1,
             "switch2_valid": false,
             "variable_id": 630,
-            "variable_valid": false,
+            "variable_valid": true,
             "variable_value": 3
           },
           "direction_fix": false,
